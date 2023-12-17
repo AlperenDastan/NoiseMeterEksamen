@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoiseMeterRestApi", "NoiseMeterRestApi\NoiseMeterRestApi.csproj", "{25F4C37F-543A-41F4-86A7-707F28A4C5DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoiseMeterLib", "NoiseMeterLib\NoiseMeterLib.csproj", "{24034F62-BAF2-4F41-9EE4-05BC733BB267}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25F4C37F-543A-41F4-86A7-707F28A4C5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25F4C37F-543A-41F4-86A7-707F28A4C5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25F4C37F-543A-41F4-86A7-707F28A4C5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25F4C37F-543A-41F4-86A7-707F28A4C5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24034F62-BAF2-4F41-9EE4-05BC733BB267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24034F62-BAF2-4F41-9EE4-05BC733BB267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24034F62-BAF2-4F41-9EE4-05BC733BB267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24034F62-BAF2-4F41-9EE4-05BC733BB267}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1696C690-3823-4C0A-8DBD-A09783DC5465}
+	EndGlobalSection
+EndGlobal
