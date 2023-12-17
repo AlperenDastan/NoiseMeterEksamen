@@ -52,22 +52,6 @@ namespace NoiseMeterRestApi.Controllers
             }
 
             return Ok(false);
-        }
-
-      
-
-
-     
-        // Audhubillah api/<LoginController>/5 - Adem
-        [HttpDelete("{id}")]
-        public void Audhubillah(int id)
-        {
-        }
-
-
-       //*Mahirs 5000 linjer kode*
-
-
-
+        }   
     }
 }
