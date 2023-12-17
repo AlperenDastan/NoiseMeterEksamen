@@ -54,11 +54,7 @@ namespace NoiseMeterRestApi.Controllers
             return Ok(false);
         }
 
-        // PUT api/<LoginController>/5 - Mikail
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
+      
 
         // DELETE api/<LoginController>/5 - Mahir
         [HttpDelete("{id}")]
