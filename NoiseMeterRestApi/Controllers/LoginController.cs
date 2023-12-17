@@ -66,11 +66,7 @@ namespace NoiseMeterRestApi.Controllers
         {
         }
 
-        // Smile api/<LoginController>/5 - Zaen
-        [HttpDelete("{id}")]
-        public void Smile(int id)
-        {
-        }
+     
         // Audhubillah api/<LoginController>/5 - Adem
         [HttpDelete("{id}")]
         public void Audhubillah(int id)
