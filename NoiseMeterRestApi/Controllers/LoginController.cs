@@ -26,7 +26,7 @@ namespace NoiseMeterRestApi.Controllers
             return await context.Users.ToListAsync();
         }
 
-        // GET api/<LoginController>/5 - Abuumin
+        // GET api/<LoginController>/5
         [HttpGet("{id}")]
         public string Get(int id)
         {
@@ -73,11 +73,7 @@ namespace NoiseMeterRestApi.Controllers
         {
         }
 
-        // Audhubillah api/<LoginController>/5 - ALPEREN
-        [HttpDelete("{id}")]
-        public void Yeet(int id)
-        {
-        }
+
 
     }
 }
