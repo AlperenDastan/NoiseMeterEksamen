@@ -56,11 +56,6 @@ namespace NoiseMeterRestApi.Controllers
 
       
 
-        // DELETE api/<LoginController>/5 - Mahir
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
 
      
         // Audhubillah api/<LoginController>/5 - Adem
