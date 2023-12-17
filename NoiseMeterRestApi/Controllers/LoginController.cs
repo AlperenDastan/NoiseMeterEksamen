@@ -73,5 +73,11 @@ namespace NoiseMeterRestApi.Controllers
         {
         }
 
+        // Audhubillah api/<LoginController>/5 - ALPEREN
+        [HttpDelete("{id}")]
+        public void Yeet(int id)
+        {
+        }
+
     }
 }
