@@ -13,8 +13,8 @@ namespace NoiseMeterRestApi.Controllers
     public class LoginController : ControllerBase
     {
 
-        private readonly InMemoryDBContext context;
-        public LoginController(InMemoryDBContext context)
+        private readonly SqlServerDbContext context;
+        public LoginController(SqlServerDbContext context)
         {
             this.context = context;
         }
@@ -35,23 +35,23 @@ namespace NoiseMeterRestApi.Controllers
 
         // POST api/<LoginController>
         [HttpPost]
-        public async Task<ActionResult<bool>> Post([FromBody] UserBusiness value)
+        public async Task<ActionResult<string>> Post([FromBody] UserBusiness value)
         {
 
             if (value == null)
             {
-                return BadRequest(false);
+                return BadRequest("Provided input is invalid");
             }
             var founduser = context.Users.FirstOrDefault(x => x.Username == value.Username);
             if (founduser is not null) 
             {
                 if (founduser.Password == value.Password)
                 {
-                    return Ok(true);
+                    return Ok(founduser.Name);
                 }
             }
 
-            return Ok(false);
+            return BadRequest("Could not find User");
         }   
     }
 }
